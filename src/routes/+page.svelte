@@ -7,7 +7,7 @@
 <p>5B Inf - I.T.S. Leonardo Da Vinci - Borgomanero</p>
 
 <Grid>
-    <Card href="/presentazione" bg="bg-slate-900">
+    <Card href="/personale" bg="bg-slate-900">
         <h1 class="text-white text-5xl font-black">Presentazione Personale</h1>
         <p class="text-slate-300 mt-4 text-xl">La mia presentazione personale</p>
     </Card>
