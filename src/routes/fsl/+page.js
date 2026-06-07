@@ -5,7 +5,6 @@ export async function load() {
     
     const esperienze = Object.entries(allFiles).map(([path, file]) => {
         return {
-            id: path.split('/').pop().replace('.md', ''),
             meta: file.metadata
         };
     });

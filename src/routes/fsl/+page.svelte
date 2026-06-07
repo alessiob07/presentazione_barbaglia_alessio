@@ -9,8 +9,8 @@
 <Grid>
     {#each data.esperienze as exp}
         <Card href="/fsl/{exp.id}" bg="bg-blue-600">
-            <h1 class="text-white text-3xl font-black">{exp.meta?.titolo ?? exp.id.toUpperCase()}</h1>
-            <p class="text-blue-100 mt-2">Scrivere poi qua i metadati che voglio leggere. Ricordati del fallback con '??'.</p>
+            <h1 class="text-white text-3xl font-black">{exp.meta?.titolo}</h1>
+            <p class="text-blue-100 mt-2">Scrivere poi qua i metadati che voglio leggere.</p>
         </Card>
     {/each}
 </Grid>
