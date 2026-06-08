@@ -15,7 +15,7 @@
 <div class="min-h-screen bg-slate-50 text-slate-900 font-sans">
 {#if !isHome}
   <nav class="p-6 border-b border-slate-200">
-    <A href="../" class="font-bold text-xl">Indietro</A>
+    <a href="../" class="font-bold text-xl">Indietro</a>
   </nav>
 {/if}
   <main>
