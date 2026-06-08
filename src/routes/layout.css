@@ -46,7 +46,7 @@ li {
 
 .box {
     background-color: red;
-    padding: 2%;
+    padding: 16px;
     border-radius: 10px;
     width: min-content;
     border-color: black;
