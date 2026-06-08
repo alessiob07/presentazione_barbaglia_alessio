@@ -53,6 +53,7 @@ li {
     border-width: 2px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 4px 4px 29px 1px #000000;
 }
 
 .blu-1 {
