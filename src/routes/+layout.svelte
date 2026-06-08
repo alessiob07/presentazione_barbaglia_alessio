@@ -3,7 +3,7 @@
 	import favicon from '$lib/assets/favicon.svg';
  import { page } from '$app/state'
 
- let isHome = $derived($page.url.pathname === '/')
+ let isHome = $derived(page.url.pathname === '/')
 
 	let { children } = $props();
 
