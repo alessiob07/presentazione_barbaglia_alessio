@@ -2,8 +2,8 @@
     let { data } = $props();
 </script>
 
-<h1>Esperienza con titolo: {data.meta.titolo}</h1>
-<h1>Contenuto del file md: metadati:</h1>
-<p>{JSON.stringify(data,null)}</p>
-<h1>Contenuto del file md: contenuto</h1>
+<h1>Esperienza presso: {data.meta.titolo}</h1>
+<p>Data: {data.meta.data}</p>
+
+<br>
 {@render data.content()}

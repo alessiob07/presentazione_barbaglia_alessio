@@ -1,6 +1,6 @@
 ---
 titolo: grest
-data: boh
+data: non ricordo il giorno
 ---
 
 # titolo

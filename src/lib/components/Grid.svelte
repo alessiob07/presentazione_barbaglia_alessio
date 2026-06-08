@@ -3,6 +3,6 @@
 
 </script>
 
-<div class="grid {cols} min-h-screen w-full">
+<div class="grid {cols} w-full h-auto">
     {@render children()}
 </div>

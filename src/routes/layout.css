@@ -1,3 +1,74 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 90%;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+body {
+    padding: 3%;
+}
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.col {
+    background-color: #CDC6AE;
+}
+
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.box {
+    background-color: red;
+    padding: 2%;
+    border-radius: 10px;
+    width: min-content;
+    border-color: black;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blu-1 {
+    background-color: #54b7d6;
+}
+
+.blu-2 {
+    text-color: #0b485c;
+    border-color: #0b485c;
+}
+
+.ver-1 {
+    background-color: #86b395;
+}
+
+.ver-2 {
+    text-color: #496562;
+    border-color: #496562;
+}
