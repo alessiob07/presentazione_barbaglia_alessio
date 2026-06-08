@@ -12,8 +12,6 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<p>{page.url.pathname}</p>
-
 <div class="min-h-screen bg-slate-50 text-slate-900 font-sans">
 {#if !isHome}
   <nav class="p-6 border-b border-slate-200">
