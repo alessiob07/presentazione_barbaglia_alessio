@@ -15,11 +15,9 @@
 <div class="min-h-screen bg-slate-50 text-slate-900 font-sans col">
 {#if !isHome}
 
-<a href="../" bg="bg-blue-600" class="size-16">
-<div class="box font-bold" style="background-color: #F8C7CC">     
-    <span class="material-symbols-outlined"> arrow_back </span> Indietro
-</div>
-</a>
+    <a href="../" class="box">
+    <span class="material-symbols-outlined content-center"> arrow_back </span> <b>Indietro</b>
+    </a>
 
     
     <br>
