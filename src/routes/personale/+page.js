@@ -1,12 +1,5 @@
-export async function load() {
-    const allFiles = import.meta.glob('$lib/personale-content/*.md', { eager: true });
-    
-    const esperienze = Object.entries(allFiles).map(([path, file]) => {
-        return {
-            id: path.split('/').pop().replace('.md', ''),
-            meta: file.metadata
-        };
-    });
+import { redirect } from '@sveltejs/kit';
 
-    return { esperienze };
+export function load() {
+    throw redirect(307, '/personale/0');
 }

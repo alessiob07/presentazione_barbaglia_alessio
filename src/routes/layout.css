@@ -23,7 +23,31 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 26px;
+  box-sizing: border-box;
+  max-width: 100%;
 }
+
+  .grid-container {
+    display: grid;
+    /* auto = prendi solo lo spazio che ti serve */
+    /* 1fr = prendi tutto lo spazio rimasto */
+    grid-template-rows: auto 1fr;
+    
+    /* Blocca la griglia all'altezza della finestra */
+    height: 100vh;
+    width: 100vw;
+    
+    /* Impedisce ai figli di creare scrollbar fuori dal container */
+    overflow: hidden;
+  }
+
+  main {
+    /* Fondamentale: se il contenuto interno è troppo, 
+       scrolla SOLO questa parte, non tutta la pagina */
+    overflow-y: auto;
+    height: 100%;
+    width: 100%
+  }
 
 .col {
     background-color: #CDC6AE;
@@ -72,4 +96,10 @@ li {
 .ver-2 {
     text-color: #496562;
     border-color: #496562;
+}
+
+html, body {
+    overflow-x: hidden; /* Blocca lo scroll orizzontale */
+    overflow-y: hidden; /* Blocca lo scroll orizzontale */
+    width: 100%;
 }

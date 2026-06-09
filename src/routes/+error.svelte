@@ -3,5 +3,5 @@
 </script>
 
 <h1>Si è verificato un errore</h1>
-<h1>Stato HTTP: {page.status}</h1>
-<p>Messaggio: {page.error.message}</p>
+<p>Stato HTTP: {page.status}</p>
+<p>Messaggio: {page.error?.message}</p>
