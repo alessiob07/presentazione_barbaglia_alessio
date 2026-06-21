@@ -2,9 +2,6 @@
     let { data } = $props();
     import Grid from '$lib/components/Grid.svelte';
     import Card from '$lib/components/Card.svelte';
-
-    import { onMount } from 'svelte';
-    onMount(() => { document.getElementById('page-title').innerText = "Contattaci" });
 </script>
 
 
