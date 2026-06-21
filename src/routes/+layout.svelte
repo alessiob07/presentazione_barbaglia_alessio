@@ -11,7 +11,7 @@
 
 <svelte:head><link rel="icon" href={favicon} /></svelte:head>
 
-<div class="min-h-screen bg-slate-50 text-slate-900 font-sans col flex flex-col">
+<div class="min-h-screen bg-taupe-200 text-gray-900 font-sans col flex flex-col">
   
   <div class="px-22 py-8 w-full h-full box-border flex-1">
     
