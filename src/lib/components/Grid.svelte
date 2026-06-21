@@ -1,8 +1,17 @@
 <script>
-    let { cols = "grid-cols-2", children } = $props();
-
+  let { cols = "1fr", rows = "1fr", children, ...rest } = $props();
 </script>
 
-<div class="grid {cols} w-full h-min">
-    {@render children()}
+<div class="grid-layout flex items-center" style="--cols: {cols}; --rows: {rows}" {...rest}>
+  {@render children()}
 </div>
+
+<style>
+  .grid-layout {
+    display: grid;
+    grid-template-columns: var(--cols);
+    grid-template-rows: var(--rows);
+    gap: 40px 30px;
+    align-items: center; 
+  }
+</style>

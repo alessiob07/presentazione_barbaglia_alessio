@@ -16,6 +16,7 @@ export async function load({ params }) {
     return {
         content: file.default, 
         meta: file.metadata,    
-        filename: file.filename
+        filename: file.filename,
+        titolo: "Esperienze FSL: " + file.metadata.titolo
     };
 }

@@ -8,5 +8,5 @@ export async function load() {
         };
     });
 
-    return { esperienze };
+    return { esperienze, titolo: "Presentazione Personale" };
 }

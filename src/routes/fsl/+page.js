@@ -10,5 +10,5 @@ export async function load() {
         };
     });
 
-    return { esperienze };
+    return { esperienze, titolo: "Esperienze di Formazione scuola lavoro" };
 }

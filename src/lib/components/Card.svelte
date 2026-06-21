@@ -1,9 +1,7 @@
 <script>
-  import A from "$lib/components/A.svelte"
-
   let { href, bg = "bg-white", children, ...rest } = $props();
 </script>
 
-<A {href} style="box-shadow: 4px 4px 29px 1px #000000;" class="{bg} p-6 rounded-xl shadow-lg m-10 border border-slate-200 block transition hover:scale-[1.02]" {...rest}>
+<a href={href} style="box-shadow: 4px 4px 29px 1px #000000;" class="{bg} px-4 py-3 m-1 rounded-xl shadow-lg border-2 block transition hover:scale-[1.02]" {...rest}>
   {@render children()}
-</A>
+</a>
