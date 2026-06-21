@@ -10,7 +10,7 @@ const config = {
 		runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true)
 	},
 	kit: { adapter: adapter(), paths: {
-            base: dev ? '' : '/nome-della-tua-repo',
+            base: dev ? '' : '/presentazione_barbaglia_alessio',
         } },
 	preprocess: [mdsvex({ extensions: ['.svx', '.md'] })],
 	extensions: ['.svelte', '.svx', '.md']
