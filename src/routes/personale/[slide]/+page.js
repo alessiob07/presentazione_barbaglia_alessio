@@ -1,8 +1,14 @@
 import { error } from '@sveltejs/kit';
+import { redirect } from '@sveltejs/kit';
+import { slidesOrder } from '$lib/assets/personale-slidesOrder';
 
 export async function load({ params }) {
     let file;
     
+    if (params.slide == "start") {
+        throw redirect(307, `/personale/${slidesOrder[0]}`);
+    }
+
     try {
         file = await import(`$lib/personale-content/${params.slide}.md`);
     } catch (e) {
@@ -17,6 +23,6 @@ export async function load({ params }) {
         content: file.default, 
         meta: file.metadata,    
         filename: file.filename,
-        titolo: "Slide " + file.metadata.titolo
+        titolo: "Slide: " + file.metadata.titolo
     };
 }
