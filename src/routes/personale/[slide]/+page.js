@@ -6,7 +6,7 @@ export async function load({ params }) {
     let file;
     
     if (params.slide == "start") {
-        throw redirect(307, `/personale/${slidesOrder[0]}`);
+        throw redirect(307, `${slidesOrder[0]}`);
     }
 
     try {

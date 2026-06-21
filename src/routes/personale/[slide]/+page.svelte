@@ -8,7 +8,7 @@
 
   <!-- L'immagine prende TUTTO il resto dello spazio disponibile -->
   <div class="flex-1">
-    <img src="/img/file.jpg" class="w-full h-full object-cover" />
+    <img src="../../img/file.jpg" class="w-full h-full object-cover" />
   </div>
 
 </div>
