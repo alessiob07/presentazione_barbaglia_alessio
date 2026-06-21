@@ -1,12 +1,13 @@
 import { error } from '@sveltejs/kit';
 import { redirect } from '@sveltejs/kit';
 import { slidesOrder } from '$lib/assets/personale-slidesOrder';
+import { base } from '$app/paths';
 
 export async function load({ params }) {
     let file;
     
     if (params.slide == "start") {
-        throw redirect(307, `${slidesOrder[0]}`);
+        throw redirect(307, `${base}/personale/${slidesOrder[0]}`);
     }
 
     try {
