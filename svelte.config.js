@@ -9,10 +9,9 @@ const config = {
 		// Force runes mode for the project, except for libraries. Can be removed in svelte 6.
 		runes: ({ filename }) => (filename.split(/[/\\]/).includes('node_modules') ? undefined : true)
 	},
-	kit: { adapter: adapter(), paths: {
-            base: dev ? '' : '/presentazione_barbaglia_alessio',
-			prerender: {	handleHttpError: 'warn' }
-        } },
+	kit: { adapter: adapter(), 
+			paths: { base: dev ? '' : '/presentazione_barbaglia_alessio'},
+			prerender: {	handleHttpError: 'warn' } },
 	preprocess: [mdsvex({ extensions: ['.svx', '.md'] })],
 	extensions: ['.svelte', '.svx', '.md']
 };
