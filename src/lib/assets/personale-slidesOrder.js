@@ -1,4 +1,5 @@
 export const slidesOrder = [
     "intro",
-    "1"
+    "visualbasic",
+    "relazioni"
 ]

@@ -4,8 +4,8 @@
     class: className = "", 
     direction = "col", 
     wrap = false,
-    justify = "start", // Aggiunto!
-    items = "start",   // Aggiunto!
+    justify = "start", 
+    items = "start",   
     ...rest 
   } = $props();
 </script>
@@ -15,9 +15,7 @@
          {direction === 'col' ? 'flex-col' : 'flex-row'} 
          {wrap ? 'flex-wrap' : ''} 
          justify-{justify} 
-         items-{items}
-         p-4 
-         gap-3
+         items-{items} 
          {className}" 
   {...rest}
 >

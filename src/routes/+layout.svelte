@@ -4,8 +4,9 @@
   import { page } from '$app/state'
   import Grid from "$lib/components/Grid.svelte"
   import Card from "$lib/components/Card.svelte"
+  import { base } from '$app/paths';
 
-  let isHome = $derived(page.url.pathname === '/presentazione_barbaglia_alessio/')
+  let isHome = $derived(page.url.pathname === base || page.url.pathname === base + '/');
   let { children } = $props();
 </script>
 

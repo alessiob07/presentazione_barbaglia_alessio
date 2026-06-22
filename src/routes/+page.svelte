@@ -8,15 +8,16 @@
     <p>5B Inf - I.T.S. Leonardo Da Vinci - Borgomanero</p>
   </div>
 
-  <Grid direction="row" class="flex-1 items-stretch">
-    <Card href="{base}/personale/start" bg="text-lime-950 border-lime-950 bg-lime-200" class="flex-1">
-        <h1>Presentazione Personale</h1>
-        <p>La mia presentazione personale</p>
+  <Grid direction="row" wrap class="h-full overflow-y-auto flex flex-col gap-2 p-10">
+    <Card href="{base}/personale/start" bg="text-lime-950 border-lime-950 bg-lime-200 flex-grow flex-shrink basis-[30%] flex flex-col p-4">
+        <h1 class="w-full text-left font-bold" >Presentazione Personale</h1>
+        <p class="w-full text-left" >La mia presentazione personale</p>
     </Card>
 
-    <Card href="{base}/fsl" bg="text-cyan-950 border-cyan-950 bg-cyan-200" class="flex-1">
-        <h1>Esperienze FSL</h1>
-        <p>Il mio percorso formativo di Formazione Scuola lavoro</p>
+    <Card href="{base}/fsl" bg="text-cyan-950 border-cyan-950 bg-cyan-200 flex-grow flex-shrink basis-[30%] flex flex-col p-4">
+        <h1 class="w-full text-left font-bold">Esperienze FSL</h1>
+        <p class="w-full text-left">Il mio percorso formativo di Formazione Scuola lavoro</p>
     </Card>
   </Grid>
 </Grid>
+
