@@ -3,6 +3,7 @@ export const trailingSlash = 'always';
 
 export function load() {
     return {
-        titolo: "Presentazione Barbaglia Alessio"
+        titolo: "Presentazione Barbaglia Alessio",
+        indietro: "Indietro"
     };
 }

@@ -1,22 +1,32 @@
 import { error } from '@sveltejs/kit';
 
 export async function load({ params }) {
-    let file;
-    
+    // 1. Importiamo l'ordine dinamico per questa specifica esperienza
+    let slidesOrder;
     try {
-        file = await import(`$lib/fsl-content/${params.esperienza}.md`);
+        const module = await import(`$lib/assets/esperienze-content/${params.esperienza}-slidesOrder.js`);
+        slidesOrder = module.slidesOrder;
     } catch (e) {
-        error(404, 'Il file .md richiesto non è stato trovato.');
+        throw error(404, `Configurazione per l'esperienza '${params.esperienza}' non trovata.`);
     }
 
-    if(!file.metadata) {
-        error(404, 'Il file .md richiesto non ha metadati.');
-    }
+    // 2. Carichiamo tutti i file e filtriamo per la cartella dell'esperienza corrente
+    const allFiles = import.meta.glob('$lib/esperienze-content/**/*.md', { eager: true });
+    
+    const slidesOrdinateList = Object.entries(allFiles)
+        // Filtriamo per cartella esperienza
+        .filter(([path]) => path.includes(`/${params.esperienza}/`))
+        .map(([path, fileData]) => ({
+            id: path.split('/').pop().replace('.md', ''),
+            meta: fileData.metadata
+        }))
+        // Filtriamo e ordiniamo in base al file di configurazione caricato
+        .filter(s => slidesOrder.includes(s.id))
+        .sort((a, b) => slidesOrder.indexOf(a.id) - slidesOrder.indexOf(b.id));
 
     return {
-        content: file.default, 
-        meta: file.metadata,    
-        filename: file.filename,
-        titolo: "Esperienze FSL: " + file.metadata.titolo
+        slides: slidesOrdinateList,
+        titolo: `Elenco Slide: ${params.esperienza}`,
+        indietro: "Elenco Esperienze"
     };
 }

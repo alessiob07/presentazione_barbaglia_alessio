@@ -11,6 +11,7 @@ const config = {
 	},
 	kit: { adapter: adapter(), paths: {
             base: dev ? '' : '/presentazione_barbaglia_alessio',
+			prerender: {	handleHttpError: 'warn' }
         } },
 	preprocess: [mdsvex({ extensions: ['.svx', '.md'] })],
 	extensions: ['.svelte', '.svx', '.md']

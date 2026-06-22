@@ -20,7 +20,7 @@
             <Card href="../" bg="bg-rose-200 text-rose-950 border-rose-950">
               <div class="flex items-center gap-1">
                 <span class="material-symbols-outlined">arrow_back</span>
-                <b class="translate-y-[1px]">Indietro</b>
+                <b class="translate-y-[1px]">{page.data.indietro ?? "Indietro"}</b>
               </div>
             </Card>
             <h1 class="flex-1">{page.data.titolo ?? "Presentazione Barbaglia Alessio"}</h1>

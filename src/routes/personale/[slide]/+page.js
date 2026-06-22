@@ -32,6 +32,7 @@ export async function load({ params }) {
         content: file.default,
         meta: file.metadata,
         titolo: "Slide: " + file.metadata.titolo,
-        slides: slidesOrdinateList
+        slides: slidesOrdinateList,
+        indietro: "Elenco Slide"
     };
 }
