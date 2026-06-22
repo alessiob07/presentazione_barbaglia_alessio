@@ -48,7 +48,7 @@
 </div>
 
   <div class="flex-1">
-    <img src="../../img/file.jpg" alt="Errore" class="w-full h-full object-cover" />
+    <img src="{base}/img/{data.meta.img1}" alt="Errore" class="w-full h-full object-cover" />
   </div>
 
 </Grid>
