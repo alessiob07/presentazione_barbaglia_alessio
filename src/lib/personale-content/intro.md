@@ -1,7 +1,7 @@
 ---
 img1: ruote.jpg
 img2: file2.png
-titolo: Titolo della slide
+titolo: Introduzione
 ---
 
 # Progettare

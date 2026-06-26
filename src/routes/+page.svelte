@@ -12,13 +12,13 @@
     <Card href="{base}/personale/start" bg="text-lime-950 border-lime-950 bg-lime-200 flex-grow flex-shrink basis-[30%] flex flex-col p-4">
         <h1 class="w-full text-left font-bold" >Presentazione Personale</h1>
         <p class="w-full text-left" >La mia presentazione personale</p>
-         <img src="{base}/img/code.png" class="object-contain">
+         <img src="{base}/img/code.png" class="object-contain h-300">
     </Card>
 
     <Card href="{base}/fsl" bg="text-cyan-950 border-cyan-950 bg-cyan-200 flex-grow flex-shrink basis-[30%] flex flex-col p-4">
         <h1 class="w-full text-left font-bold">Esperienze FSL</h1>
         <p class="w-full text-left">Il mio percorso formativo di Formazione Scuola lavoro</p>
-        <img src="{base}/img/IMG_20250617_155621.jpg" class="object-contain">
+        <img src="{base}/img/IMG_20250617_155621.jpg" class="object-contain h-300">
     </Card>
   </Grid>
 </Grid>

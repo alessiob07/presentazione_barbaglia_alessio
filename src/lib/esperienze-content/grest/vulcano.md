@@ -1,8 +1,8 @@
 ---
 img1: vulcano_1.1.1.png
-titolo: Attività 2
+titolo: Vulcano
 --- 
 
-Collaborando con il laboratorio di creta
+Collaborando con il laboratorio di sculture
 
 # Vulcano con simulazione del fuoco tramite led RGB programmati per cambiare colore

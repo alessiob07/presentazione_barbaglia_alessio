@@ -1,6 +1,6 @@
 ---
 img1: matrice.jpg
-titolo: Attività 1 
+titolo: Attività
 ---
 
 
