@@ -1,5 +1,5 @@
 ---
-img1: Chiesa_BV_Assunta_Fontaneto.jpg
+img1: microbit.png
 titolo: Cos'ho imparato?
 ---
 

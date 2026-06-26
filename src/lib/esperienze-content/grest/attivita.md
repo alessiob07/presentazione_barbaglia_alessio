@@ -8,9 +8,11 @@ titolo: Attività 1
 
 usando microbit
 
-## Cos'è Microbit?
+# Cos'è Microbit?
 
-Microbit è un microcontrollore progettata per scopi educativi nei bambini e ragazzi.
+Microbit è un microcontrollore progettato per scopi educativi per bambini e ragazzi.
+
+# Esercizio
 
 Esercizio di visualizzazione di una figura tramite led con programmazione a blocchi data da un disegno.
  

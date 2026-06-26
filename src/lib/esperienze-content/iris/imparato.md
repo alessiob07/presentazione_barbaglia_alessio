@@ -1,5 +1,5 @@
 ---
-img1: IMG_20250617_155621.jpg
+img1: odoo-logo-png-transparent.png
 img2: file2.png
 titolo: Cos'ho imparato?
 ---
