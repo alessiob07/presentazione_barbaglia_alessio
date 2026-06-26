@@ -1,7 +1,9 @@
 ---
-img1: file.jpg
+img1: visualbasic.png
 img2: file2.png
-titolo: Titolo della slide
+titolo: Visual basic
 ---
 
-Bla bla bla bla
+# Progettazione sistemi operativi 
+come Applicazione
+usando VisualBasic

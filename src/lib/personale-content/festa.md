@@ -1,7 +1,13 @@
 ---
-img1: file.jpg
+img1: svelte.jpg
 img2: file2.png
-titolo: Titolo della slide
+titolo: Casse Fontaneto
 ---
 
-Bla bla bla bla
+# Progetto in corso
+
+Cassa per festa patronale Fontaneto 
+
+- Svelte
+- DataBase
+- VPN

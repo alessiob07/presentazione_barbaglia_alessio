@@ -8,7 +8,6 @@ titolo: Obiettivo
 
 Odoo è un gestionale open source.
 
-,
-# Obiettivo per l'azienda:
+# Perché l'azienda aveva bisogno?
 
 Imparare il gestionale per attuare un progetto di aggiornamento del loro gestionale con dei programmatori specializzati in Odoo.

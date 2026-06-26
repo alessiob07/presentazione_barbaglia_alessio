@@ -8,7 +8,7 @@ titolo: Cos'ho imparato?
 - Collaborare con altri laboratori per un obiettivo comune
 
 # CONTRO
-- Risorsi materiali tecnici idonei a disposizione
+- Ridotti materiali tecnici idonei a disposizione
 - Organizzazione delle giornate con poco preavviso
 
  

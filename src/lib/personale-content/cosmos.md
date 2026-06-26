@@ -1,8 +1,8 @@
 ---
-img1: prova.jpg
+img1: cosmos.png
 img2: file2.png
-titolo: prova
+titolo: Cosmos
 ---
 
-# Titolo della 1
-Bla bla bla bla
+# Progettazione sistemi operativi 
+usando Cosmos

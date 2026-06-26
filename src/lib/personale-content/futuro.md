@@ -1,5 +1,5 @@
 ---
-img1: file.jpg
+img1: upo.png
 img2: file2.png
 titolo: Futuro
 ---
