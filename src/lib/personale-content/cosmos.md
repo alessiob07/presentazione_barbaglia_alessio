@@ -7,4 +7,4 @@ titolo: Cosmos
 # Progettazione sistemi operativi 
 usando Cosmos
 
-<img src={img2}>
+<img src={img2} class="object-contain">
