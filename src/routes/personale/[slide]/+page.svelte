@@ -31,8 +31,7 @@
 <Grid direction="row" class="h-full gap-10 p-4" items="stretch">
   <div class="flex flex-col w-64 h-full"> 
     <div class="flex-none">
-      <h1>Il mio titolo</h1>
-      <p>Testo...</p>
+      {@render data.content()}
     </div>
 
     <div class="flex-grow"></div>
@@ -48,7 +47,7 @@
 </div>
 
   <div class="flex-1">
-    <img src="{base}/img/{data.meta.img1}" alt="Errore" class="w-full h-full object-cover" />
+    <img src="{base}/img/{data.meta.img1}" alt="Errore" class="max-h-full w-full object-contain" />
   </div>
 
 </Grid>

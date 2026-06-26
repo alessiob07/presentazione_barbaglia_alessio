@@ -24,9 +24,11 @@ export async function load({ params }) {
         .filter(s => slidesOrder.includes(s.id))
         .sort((a, b) => slidesOrder.indexOf(a.id) - slidesOrder.indexOf(b.id));
 
+    const espFile = await import(`$lib/esperienze-content/${params.esperienza}.md`);
+
     return {
         slides: slidesOrdinateList,
-        titolo: `Elenco Slide: ${params.esperienza}`,
+        titolo: `Elenco Slide: ${espFile.metadata.titolo}`,
         indietro: "Elenco Esperienze"
     };
 }

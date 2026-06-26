@@ -4,4 +4,6 @@ img2: file2.png
 titolo: Titolo della slide
 ---
 
-Bla bla bla bla
+# Indecisione indirizzo di studi
+- Grafica
+- Informatica

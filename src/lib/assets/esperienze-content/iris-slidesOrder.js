@@ -1,4 +1,6 @@
 export const slidesOrder = [
-    "1",
-    "2",
+    "intro",
+    "obiettivo",
+    "attivita",
+    "imparato"
 ]
